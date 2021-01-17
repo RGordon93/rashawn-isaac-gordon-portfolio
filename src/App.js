@@ -1,14 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
-import image from './images/image.jpg'
+import React from 'react';
+import Contact from './Components/Contact/Contact';
+import About from './Components/About/About';
+import Home from './Components/Home/Home';
+import Header from './Components/Header/Header'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>Rigga Mortis</h1>
-      <img className="photo" src={image}></img>
-    </div>
-  );
+		<Router>
+			<div>
+				<Header />
+				<Route path='/' exact component={Home} />
+				<Route path='/about' exact component={About} />
+				<Route path='/contact' exact component={Contact} />
+			</div>
+		</Router>
+	);
 }
 
 export default App;
