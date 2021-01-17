@@ -1,0 +1,18 @@
+.header-items {
+    list-style-type: none;
+    margin: 0;
+    float: right; 
+    margin-right: 20px;
+    padding-top: 50px;
+}
+
+.header-items li {
+  display: inline-block;
+  margin-left: 10px;
+}
+.logo {
+    width: 175px;
+    height: 100px;
+    /* padding-top: -200px; */
+
+}

@@ -1,10 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Header.css';
+import image from '../../images/Rigga-Mortis-Logo.png';
 
 const Header = () => {
     return (
 			<div>
-				<ul>
+                <img className="logo" src={image}></img>
+				<ul className="header-items">
 					<li>
 						<Link to='/'>Home</Link>
 					</li>
