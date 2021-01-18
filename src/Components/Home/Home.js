@@ -1,11 +1,18 @@
 import React from 'react';
-import image from '../../images/image.jpg';
+import NukaCarousel from '../../Components/NukaCarousel/NukaCarousel'; 
+import About from '../../Components/About/About'; 
+import Portfolio from '../../Components/Portfolio/Portfolio';
+import './Home.css';
+
 
 const Home = () => {
     return (
-			<div>
-				<img className='photo' src={image}></img>
-			</div>
+             <>
+             <NukaCarousel className='photo-box'/>
+             <About />
+             <Portfolio />
+             </>
+				
 		);
 };
 

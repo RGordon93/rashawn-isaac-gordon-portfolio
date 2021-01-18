@@ -5,7 +5,7 @@ import About from './Components/About/About';
 import Home from './Components/Home/Home';
 import Header from './Components/Header/Header'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
-
+import Portfolio from './Components/Portfolio/Portfolio'
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
 				<Header />
 				<Route path='/' exact component={Home} />
 				<Route path='/about' exact component={About} />
+				<Route path='/portfolio' exact component={Portfolio} />
 				<Route path='/contact' exact component={Contact} />
 			</div>
 		</Router>
