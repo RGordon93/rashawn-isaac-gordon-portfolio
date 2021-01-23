@@ -11,36 +11,36 @@ const Header = () => {
 				<img className='logo' src={logo}></img>
 				<ul className='header-items'>
 					<li>
-						<Link to='/' style={{ color: '#0E41FB', textDecoration: 'none' }}>
+						<Link to='/' style={{ color: 'lightgray', textDecoration: 'none' }}>
 							HOME
 						</Link>
 					</li>
-					<li>
+					{/* <li>
 						<Link
 							to='/about'
-							style={{ color: '#0E41FB', textDecoration: 'none' }}>
+							style={{ color: 'black', textDecoration: 'none' }}>
 							ABOUT
 						</Link>
-					</li>
+					</li> */}
 					<li>
 						<Link
 							to='/portfolio'
-							style={{ color: '#0E41FB', textDecoration: 'none' }}>
-							Programming
+							style={{ color: 'lightgray', textDecoration: 'none' }}>
+							PORTFOLIO
 						</Link>
 					</li>
 					<li>
 						<Link
 							to='/music'
-							style={{ color: '#0E41FB', textDecoration: 'none' }}>
+							style={{ color: 'lightgray', textDecoration: 'none' }}>
 							MUSIC
 						</Link>
 					</li>
 					<li>
 						<Link
 							to='/contact'
-							style={{ color: '#0E41FB', textDecoration: 'none' }}>
-							Contact
+							style={{ color: 'lightgray', textDecoration: 'none' }}>
+							CONTACT
 						</Link>
 					</li>
 				</ul>

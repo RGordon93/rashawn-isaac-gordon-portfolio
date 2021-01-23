@@ -15,12 +15,11 @@ const NukaCarousel = () => {
 					withoutControls={true}
 					autoplay={true}
 					autoplayInterval={3000}>
-					{/* <img className='photo' src={image}></img> */}
+					<img className='photo' src={image6}></img>
 					<img className='photo' src={image2}></img>
 					<img className='photo' src={image3}></img>
-					<img className='photo' src={image6}></img>
-					<img className='photo' src={image4}></img>
-					<img className='photo' src={image5}></img>
+					{/* <img className='photo' src={image4}></img> */}
+					{/* <img className='photo' src={image5}></img> */}
 				</Carousel>
 			</div>
 		);

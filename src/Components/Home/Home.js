@@ -7,12 +7,11 @@ import './Home.css';
 
 const Home = () => {
     return (
-             <>
-             <NukaCarousel className='photo-box'/>
-             <About />
-             <Portfolio />
-             </>
-				
+			<>
+				<NukaCarousel className='photo-box' />
+				<About />
+				<Portfolio />
+			</>
 		);
 };
 

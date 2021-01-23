@@ -4,6 +4,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
 
 .header-items {
     list-style-type: none;
@@ -18,7 +21,9 @@
   display: inline-block;
   margin-left: 10px;
    /* font-family: 'UnifrakturCook'; */
-   font-family: 'Sedgwick Ave Display';
+   /* font-family: 'Sedgwick Ave Display'; */
+   font-family: 'Roboto';
+   font-weight: bold;
 }
 .logo {
     width: 175px;
@@ -26,4 +31,3 @@
     /* padding-top: -200px; */
 
 }
-

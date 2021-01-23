@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 .about-paragraph {
     text-align: center;
+    font-family: 'Roboto'
   
     
 }
 .about-text {
     text-align: center;
-    font-family: 'Sedgwick Ave Display';
+    /* font-family: 'Sedgwick Ave Display'; */
+     font-family: 'Roboto';
 }
