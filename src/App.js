@@ -3,6 +3,7 @@ import React from 'react';
 import Contact from './Components/Contact/Contact';
 import About from './Components/About/About';
 import Home from './Components/Home/Home';
+import Music from './Components/Music/Music';
 import Header from './Components/Header/Header'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import Portfolio from './Components/Portfolio/Portfolio'
@@ -15,6 +16,7 @@ function App() {
 				<Route path='/' exact component={Home} />
 				<Route path='/about' exact component={About} />
 				<Route path='/portfolio' exact component={Portfolio} />
+				<Route path='/music' exact component={Music} />
 				<Route path='/contact' exact component={Contact} />
 			</div>
 		</Router>

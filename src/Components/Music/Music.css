@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.video-title {
+    text-align: center;
+    font-family: 'Roboto';
+    padding-top: 75px;
+}
+.epidemic-video {
+    text-align: center;
+	display: block;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+.epidemic-title, .epidemic-description {
+    text-align: center;
+    font-family: 'Roboto';
+}

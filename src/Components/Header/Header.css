@@ -6,6 +6,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 
 
 .header-items {
@@ -22,12 +24,21 @@
   margin-left: 10px;
    /* font-family: 'UnifrakturCook'; */
    /* font-family: 'Sedgwick Ave Display'; */
-   font-family: 'Roboto';
+   font-family: 'Permanent Marker';
+   /* font-family: 'Roboto'; */
    font-weight: bold;
 }
 .logo {
     width: 175px;
     height: 100px;
-    /* padding-top: -200px; */
+   
+
+}
+.logo2 {
+    width: 300px;
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+   
 
 }
