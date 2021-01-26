@@ -23,15 +23,15 @@ const Portfolio = () => {
 					className='project-link'
 					href='https://rgordon93.github.io/spaceman-project-1/'
 					target='_blank'
-					style={{ color: 'lightgray', textDecoration: 'none' }}>
-					DEMO
+					style={{ color: 'black', textDecoration: 'none' }}>
+					D E M O
 				</a>
 				<a
 					className='code-link'
 					href='https://github.com/RGordon93/spaceman-project-1'
 					target='_blank'
-					style={{ color: 'lightgray', textDecoration: 'none' }}>
-					CODE
+					style={{ color: 'black', textDecoration: 'none' }}>
+					C O D E
 				</a>
 				<h2 className='portfolio-title'>PROJECT #2</h2>
 				<img
@@ -40,7 +40,8 @@ const Portfolio = () => {
 					style={{
 						border: '50px solid black',
 						borderWidth: '30px',
-					}}></img>
+					}}
+                    ></img>
 				<h4 className='project-title-1'>"C U R A T R"</h4>
 				<p className='project-description'>
 					Fullstack MERN react app using mongoDB
@@ -49,28 +50,28 @@ const Portfolio = () => {
 					className='project-link'
 					href='https://curatrp3ga.herokuapp.com/'
 					target='_blank'
-					style={{ color: 'lightgray', textDecoration: 'none' }}>
-					DEMO
+					style={{ color: 'black', textDecoration: 'none' }}>
+					D E M O
 				</a>
 				<a
 					className='code-link'
 					href='https://github.com/Davinki-Coders/Project-3-fe'
 					target='_blank'
 					style={{
-						color: 'lightgray',
+						color: 'black',
 						textDecoration: 'none',
 					}}>
-					CODE
+					F R O N T   E N D
 				</a>
 				<a
 					className='code-link'
 					href='https://github.com/Davinki-Coders/Project-3-be'
 					target='_blank'
 					style={{
-						color: 'lightgray',
+						color: 'black',
 						textDecoration: 'none',
 					}}>
-					CODE
+					B A C K   E N D
 				</a>
 			</div>
 		);

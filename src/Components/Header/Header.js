@@ -8,43 +8,44 @@ import logo2 from '../../images/SOFAS-LOGO-1.png';
 
 const Header = () => {
     return (
-			<div>
+			<div className="header">
 				<img className='logo2' src={logo2}></img>
 				<ul className='header-items'>
 					<li>
-						<Link to='/' style={{ color: '#ff6542', textDecoration: 'none' }}>
+						<Link to='/' style={{ color: 'black', textDecoration: 'none' }}>
 							HOME
 						</Link>
 					</li>
 					{/* <li>
 						<Link
 							to='/about'
-							style={{ color: 'black', textDecoration: 'none' }}>
+							style={{ color: '#ff6542', textDecoration: 'none' }}>
 							ABOUT
 						</Link>
 					</li> */}
 					<li>
 						<Link
 							to='/portfolio'
-							style={{ color: '#ff6542', textDecoration: 'none' }}>
+							style={{ color: 'black', textDecoration: 'none' }}>
 							PORTFOLIO
 						</Link>
 					</li>
 					<li>
 						<Link
 							to='/music'
-							style={{ color: '#ff6542', textDecoration: 'none' }}>
+							style={{ color: 'black', textDecoration: 'none' }}>
 							MUSIC
 						</Link>
 					</li>
 					<li>
 						<Link
 							to='/contact'
-							style={{ color: '#ff6542', textDecoration: 'none' }}>
+							style={{ color: 'black', textDecoration: 'none' }}>
 							CONTACT
 						</Link>
 					</li>
 				</ul>
+				
 			</div>
 		);
 };

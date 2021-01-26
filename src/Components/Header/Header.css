@@ -1,12 +1,5 @@
-
-
-@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 
 
@@ -15,18 +8,16 @@
     margin: 0;
     float: right; 
     margin-right: 20px;
-    padding-top: 50px;
+    padding-top: 30px;
    
 }
 
 .header-items li {
   display: inline-block;
   margin-left: 10px;
-   /* font-family: 'UnifrakturCook'; */
-   /* font-family: 'Sedgwick Ave Display'; */
-   font-family: 'Permanent Marker';
-   /* font-family: 'Roboto'; */
-   font-weight: bold;
+  font-family: 'Roboto';
+  font-weight: bold;
+   
 }
 .logo {
     width: 175px;
@@ -35,10 +26,9 @@
 
 }
 .logo2 {
-    width: 300px;
-    height: 100px;
-    padding-top: 10px;
-    padding-bottom: 12px;
+    width: 225px;
+    height: 75px;
+    
    
 
 }

@@ -4,6 +4,7 @@ import About from '../../Components/About/About';
 import Portfolio from '../../Components/Portfolio/Portfolio';
 import Contact from '../../Components/Contact/Contact';
 import Music from '../../Components/Music/Music';
+import Footer from '../../Components/Footer/Footer';
 import './Home.css';
 
 
@@ -16,6 +17,7 @@ const Home = () => {
 				<Portfolio />
                 <Music />
 				<Contact />
+                <Footer />
 			</>
 		);
 };

@@ -11,28 +11,29 @@ const Contact = () => {
 					Looking forward to speaking with you
 				</p>
 				<AiFillLinkedin className='linkedin-logo' />
+				<AiFillGithub className='github-logo' />
+				<AiOutlineFile className='resume-logo' />
+                <br></br>
 				<a
 					className='linkedin-link'
 					href='https://www.linkedin.com/in/rashawn-isaac-gordon/'
 					style={{ color: 'black' }}
 					target='_blank'>
-					LINKEDIN
-				</a>
-				<AiFillGithub className='github-logo' />
+					Linkedin
+                    </a>
 				<a
 					className='github-link'
 					href='https://github.com/RGordon93'
 					style={{ color: 'black' }}
 					target='_blank'>
-					GITHUB
+					Github
 				</a>
-				<AiOutlineFile className='resume-logo' />
 				<a
 					className='resume-link'
 					href=''
 					style={{ color: 'black' }}
 					target='_blank'>
-					RESUME
+					Resume
 				</a>
 			</div>
 		);
