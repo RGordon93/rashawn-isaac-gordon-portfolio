@@ -11,7 +11,7 @@ const Header = () => {
 			<div className="header">
 				<img className='logo2' src={logo2}></img>
 				<ul className='header-items'>
-					<li>
+					<li className='header-home'>
 						<Link to='/' style={{ color: 'black', textDecoration: 'none' }}>
 							HOME
 						</Link>
@@ -23,21 +23,21 @@ const Header = () => {
 							ABOUT
 						</Link>
 					</li> */}
-					<li>
+					<li className='header-portfolio'>
 						<Link
 							to='/portfolio'
 							style={{ color: 'black', textDecoration: 'none' }}>
 							PORTFOLIO
 						</Link>
 					</li>
-					<li>
+					<li className='header-music'>
 						<Link
 							to='/music'
 							style={{ color: 'black', textDecoration: 'none' }}>
 							MUSIC
 						</Link>
 					</li>
-					<li>
+					<li className='header-contact'>
 						<Link
 							to='/contact'
 							style={{ color: 'black', textDecoration: 'none' }}>
@@ -45,6 +45,7 @@ const Header = () => {
 						</Link>
 					</li>
 				</ul>
+                
 				
 			</div>
 		);

@@ -6,18 +6,19 @@ import Contact from '../../Components/Contact/Contact';
 import Music from '../../Components/Music/Music';
 import Footer from '../../Components/Footer/Footer';
 import './Home.css';
+import { FaChevronDown } from 'react-icons/fa';
 
 
 const Home = () => {
     return (
 			<>
-				<NukaCarousel
-				/>
+				<NukaCarousel />
 				<About />
+				<FaChevronDown className='arrow' />
 				<Portfolio />
-                <Music />
+				<Music />
 				<Contact />
-                <Footer />
+				<Footer />
 			</>
 		);
 };

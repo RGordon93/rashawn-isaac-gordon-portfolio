@@ -15,24 +15,23 @@ const NukaCarousel = () => {
 			<div>
 				<Carousel
 					className='carousel-images'
-					style={{
-						border: '50px solid black',
-						// borderRadius: '25px',
-						borderWidth: '30px',
-					}}
+					// style={{
+					// 	border: '50px solid black',
+					// 	borderWidth: '30px',
+					// }}
 					easing='easeInOutElastic'
 					edgeEasing='easeOutCirc'
 					pauseOnHover={false}
 					swiping={true}
 					cellSpacing={20}
-					width={750}
+					// width={750}
 					height={500}
 					withoutControls={true}
 					autoplay={true}
 					autoplayInterval={5000}>
 					<img className='photo' src={image6}></img>
 					<img className='photo' src={image2}></img>
-					<img className='photo' src={image3}></img>
+					{/* <img className='photo' src={image3}></img> */}
 					{/* <img className='photo' src={image7}></img> */}
 					{/* <img className='photo' src={image4}></img> */}
 					{/* <ReactPlayer

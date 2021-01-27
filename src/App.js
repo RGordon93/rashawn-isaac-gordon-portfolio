@@ -5,6 +5,7 @@ import About from './Components/About/About';
 import Home from './Components/Home/Home';
 import Music from './Components/Music/Music';
 import Header from './Components/Header/Header'
+import Footer from './Components/Footer/Footer';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import Portfolio from './Components/Portfolio/Portfolio'
 
@@ -18,6 +19,7 @@ function App() {
 				<Route path='/portfolio' exact component={Portfolio} />
 				<Route path='/music' exact component={Music} />
 				<Route path='/contact' exact component={Contact} />
+				{/* <Footer /> */}
 			</div>
 		</Router>
 	);

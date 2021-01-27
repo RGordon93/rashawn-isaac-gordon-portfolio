@@ -9,7 +9,7 @@ const Portfolio = () => {
 			<div>
 				<h2 className='portfolio-title'>PROJECT #1</h2>
 				<img
-					className='spaceman-image'
+					className='spaceman-image hvr-wobble-to-bottom-right'
 					// style={{
 					// 	border: '50px solid black',
 					// 	borderWidth: '30px',
@@ -35,13 +35,12 @@ const Portfolio = () => {
 				</a>
 				<h2 className='portfolio-title'>PROJECT #2</h2>
 				<img
-					className='curatr-image'
+					className='curatr-image hvr-wobble-to-bottom-right'
 					src={curatr}
 					style={{
 						border: '50px solid black',
 						borderWidth: '30px',
-					}}
-                    ></img>
+					}}></img>
 				<h4 className='project-title-1'>"C U R A T R"</h4>
 				<p className='project-description'>
 					Fullstack MERN react app using mongoDB
@@ -61,7 +60,7 @@ const Portfolio = () => {
 						color: 'black',
 						textDecoration: 'none',
 					}}>
-					F R O N T   E N D
+					F R O N T E N D
 				</a>
 				<a
 					className='code-link'
@@ -71,7 +70,7 @@ const Portfolio = () => {
 						color: 'black',
 						textDecoration: 'none',
 					}}>
-					B A C K   E N D
+					B A C K E N D
 				</a>
 			</div>
 		);

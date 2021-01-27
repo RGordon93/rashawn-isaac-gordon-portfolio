@@ -13,14 +13,14 @@ const Contact = () => {
 				<AiFillLinkedin className='linkedin-logo' />
 				<AiFillGithub className='github-logo' />
 				<AiOutlineFile className='resume-logo' />
-                <br></br>
+				<br></br>
 				<a
 					className='linkedin-link'
 					href='https://www.linkedin.com/in/rashawn-isaac-gordon/'
 					style={{ color: 'black' }}
 					target='_blank'>
 					Linkedin
-                    </a>
+				</a>
 				<a
 					className='github-link'
 					href='https://github.com/RGordon93'
@@ -30,7 +30,7 @@ const Contact = () => {
 				</a>
 				<a
 					className='resume-link'
-					href=''
+					href='https://docs.google.com/document/d/1rzsN_gN_FU95p5u-kBEWRt3tLyVqoW6I5B5Iqn3k2P8/edit?usp=sharing'
 					style={{ color: 'black' }}
 					target='_blank'>
 					Resume
