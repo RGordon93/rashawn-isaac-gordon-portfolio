@@ -8,7 +8,7 @@ const Footer = () => {
 				<h6 className='footer-text'>2021 ⓅS O F A S LLC</h6>
 				<hr></hr>
 				<h6 className='footer-text'>
-					This website was developed by Rashawn Isaac Gordon 🎒
+					This website was developed by Rashawn Isaac Gordon 
 				</h6>
 			</div>
 		);
