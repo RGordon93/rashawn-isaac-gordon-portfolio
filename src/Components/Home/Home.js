@@ -14,7 +14,7 @@ const Home = () => {
 			<>
 				<NukaCarousel />
 				<About />
-				<FaChevronDown className='arrow' />
+				<FaChevronDown className='arrow hvr-icon-hang' />
 				<Portfolio />
 				<Music />
 				<Contact />

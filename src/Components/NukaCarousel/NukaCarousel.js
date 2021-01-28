@@ -31,9 +31,9 @@ const NukaCarousel = () => {
 					autoplayInterval={5000}>
 					<img className='photo' src={image6}></img>
 					<img className='photo' src={image2}></img>
-					{/* <img className='photo' src={image3}></img> */}
+					<img className='photo' src={image3}></img>
 					{/* <img className='photo' src={image7}></img> */}
-					{/* <img className='photo' src={image4}></img> */}
+					<img className='photo' src={image4}></img>
 					{/* <ReactPlayer
 						className='epidemic-video'
 						style={{

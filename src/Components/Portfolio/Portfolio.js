@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Portfolio.css'
 import spaceman from '../../images/Spaceman-1.png'
 import curatr from '../../images/Curatr-1.png'
